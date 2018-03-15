@@ -17,6 +17,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     //我是分支哈哈哈哈哈哈
+    [self setUIButton];
+}
+
+-(void)setUIButton{
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeSystem];
+    [btn setTitle:@"按钮" forState:(UIControlStateNormal)];
+    [btn setFrame:CGRectMake(10, 520, 100, 100)];
+    [btn addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:btn];
+}
+
+-(void)buttonClick{
     
 }
 

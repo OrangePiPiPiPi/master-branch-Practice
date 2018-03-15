@@ -34,6 +34,10 @@
     [self.view addSubview:imageView];
 }
 
+-(void)addButton{
+  //我是一个按钮
+}
+
 
 
 

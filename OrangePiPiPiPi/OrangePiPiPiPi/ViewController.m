@@ -30,6 +30,7 @@
 
 -(void)buttonClick{
     
+
 }
 
 -(void)addButton{
@@ -38,6 +39,7 @@
 
 -(void)addView{
 //我是一个view
+
 }
 
 

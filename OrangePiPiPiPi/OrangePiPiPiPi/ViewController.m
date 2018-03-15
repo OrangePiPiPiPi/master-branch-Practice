@@ -29,8 +29,9 @@
 }
 
 -(void)buttonClick{
-    
-
+    UIImageView *imageView = [[UIImageView alloc]init];
+    imageView.image = [UIImage imageNamed:@"lll"];
+    [self.view addSubview:imageView];
 }
 
 -(void)addButton{

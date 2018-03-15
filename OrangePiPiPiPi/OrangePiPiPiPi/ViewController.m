@@ -29,10 +29,6 @@
 }
 
 -(void)buttonClick{
-    UIImage *image = [UIImage imageNamed:@"hhh"];
-    
-    
-    
     
 }
 

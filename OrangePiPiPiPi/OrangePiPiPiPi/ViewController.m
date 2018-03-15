@@ -26,15 +26,9 @@
     view.backgroundColor = [UIColor redColor];
     view.frame = CGRectMake(100, 100, 150, 150);
     [self.view addSubview:view];
+    //主分支setUpView
 }
 
-
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
 
 
 @end

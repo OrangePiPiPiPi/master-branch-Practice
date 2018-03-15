@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 
+
 @interface ViewController ()
 
 @end
@@ -17,7 +18,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
    //我是主分支
+    [self setUpView];
+    
 }
+-(void)setUpView{
+    UIView*view = [[UIView alloc] init];
+    view.backgroundColor = [UIColor redColor];
+    view.frame = CGRectMake(100, 100, 150, 150);
+    [self.view addSubview:view];
+}
+
+
 
 
 - (void)didReceiveMemoryWarning {
